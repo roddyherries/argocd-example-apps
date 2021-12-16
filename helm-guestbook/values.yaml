@@ -10,7 +10,7 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
+  type: ClusterIPx
   port: 81
 
 ingress:
