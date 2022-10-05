@@ -9,6 +9,5 @@ data:
 kind: ConfigMap
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "-100"
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
+    argocd.argoproj.io/sync-wave: "-1"
   name: todo-backend-job6
