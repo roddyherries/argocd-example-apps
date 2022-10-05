@@ -9,5 +9,5 @@ data:
 kind: ConfigMap
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
-  name: todo-backend-job6
+    argocd.argoproj.io/sync-wave: "0"
+  name: todo-backend-job-2
